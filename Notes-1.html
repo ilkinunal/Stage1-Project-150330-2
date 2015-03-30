@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ilkin&#39;s FIRST webpage</title>
+    <link rel="stylesheet" type="text/css" href="Notes-1.css">
+</head>
+ 
+<body>
+ <h1 class="title">&#34;Introduction to Programming Nanodegree&#34; Notes</h1> 
+  
+<div>
+    <!--closing tag for this div is on line 99-->
+
+  <div>
+  <h2>***Web &#38; HTML  for Beginners - lesson 1 </h2>
+      
+    <div>
+    <div class="subtitle"> Definitions </div> 
+      <b> Internet </b> is the global system of interconnected computer networks.
+      <br>The<b> web</b> is the system we use to access the Internet. 
+      <br> <b> HTML </b> stands for <em><b>Hyper Text Markup Language </b></em>  which is the main document type of the web, invented in 1990s.
+      <br> <b> Web browser </b> is a program (Internet Explorer , FireFox, Google Chrome, etc) that is located on the computer that is used to display files on the web.
+      <br> <b> Server </b> is a computer designed to process requests and deliver data to other computers over a local network or the Internet.
+      <br> <b> HTTP </b> stands for <em><b>Hyper Text Transfer Protocol </b></em>  which is the set of rules for transferring files (text, images, sound, video, and other multimedia files) on the World Wide Web.
+    </div>
+
+    <div>
+    <div class="subtitle"> How the Web Works? </div>
+      When a user opens a web browser and writes www.udacity.com, the computer sends an HTTP request to a server. The server finds the HTML document and sends it back to the user's computer , the web browser interprets the page and displays it on the user's screen. Click this <a href=" https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48329854/m-48480496"> video</a> to watch the detailed explanation.
+    </div>
+
+    <div>
+    <div class="subtitle"> HTML </div>
+      <div>
+      HTML has &#34;Text content&#34; (what you see), &#34;markup&#34; (what it looks), &#34;references to other documents&#34; (images, videos, etc), &#34;links to other pages&#34;.
+      <br>HTML consists of a series of codes typed into a text-file by the programmer; 
+
+      <ul>
+        <li>  
+        <b>TAGs</b> - use <b> &#60; angle-brackets &#62;</b>,most tags have opening and closing tag, but some called &#34;void&#34; tag which does not require a closing tag. 
+        </li>
+        <li>
+        <b>Element</b> - includes <b>opening tag</b> &#38; <b>content</b> &#38; <b>closing tag</b>. Elements can be <b>inline</b> or <b>block</b>; Block elements create an &#34;invisible box&#34; around the content inside of them, such as &#34;p&#34;, &#34;div&#34;, &#34;form&#34;. &#34;a&#34;, &#34;span&#34;, &#34;br&#34;, &#34;img&#34; and &#34;strong&#34; are all inline elements.
+    	  </li>
+        <li>
+        <b>Attribute</b> - provide additional information about an element , are specified in the opening tag.
+        </li>
+      </ul>
+
+      The Structure of HTML document :
+          <pre>         &#60;html&#62;
+              &#60;head&#62; 
+                 &#60;title&#62; TITLE &#60;&#47;title&#62;
+              &#60;&#47;head&#62;
+              &#60;body&#62;  
+                 &#60;name&#62; CONTENT &#60;&#47;name&#62;
+              &#60;&#47;body&#62; 
+          &#60;&#47;html&#62; 
+          </pre>   
+      </div>
+    </div>
+ 
+  </div>
+  
+  <div>
+  <h2>***HTML &#38; CSS &#38; DOM -lesson 2 </h2>  
+  
+    <div>
+      <span>
+      The browser turns HTML &#34;tags&#34; into &#34;elements&#34; that form a &#34;tree&#34;. It knows how to do that because of the <b>DOM</b> &#34;<b>Document Object Model</b>&#34;, which is a standard convention for representing and interacting with elements in HTML. Each HTML tag creates an element in the DOM that the browser uses to display the page.
+      </span>
+      <span>   
+      <br>  The document written in HTML defines the <u><b>structure</b></u> and <u><b>content</b></u> of the page.To define the <u><b>style</b></u>, you have to use another language; <b>CSS</b> &#34;<b>Cascading Style Sheets</b>&#34;. CSS is used for describing the look and formatting of a document written in a markup language.
+      </span>
+      <span>
+      <br> DOM -a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.    
+      </span>
+    </div>
+
+    <div>     
+    <div class="subtitle"> Text Editors for coding </div>
+      <ul>
+        <li>  <b>ScratchPad</b> : beginner friendly, least powerful, sharing is not possible, HTML &#38; CSS </li>
+        <li>  <b>Codepen</b> : powerful, easy for sharing but account needed, HTML &#38; CSS &#38; JavaScript </li>  
+        <li>  <b>Sublime</b> : most powerful,but not quite friendly, difficult to share, all languages</li>
+      </ul> 
+    </div>
+
+    <div>
+    <div class="subtitle"> Avoiding Repetition </div>
+      <div>
+      Coding principle is <em> don&#39;t repeat yourself (<b>DRY</b>)</em>. Avoiding Repetition makes it easier to create &#38; maintain &#38; expand, less likely for errors and mistakes. Also, it makes it faster loading of web pages, enables the clients to save money on bandwidth and development costs.
+      </div>        
+    </div>
+
+  </div>
+
+</div>      
+
+</body>
+
+</html>
